@@ -1,0 +1,16 @@
+##Project Title: Majority Element Detection Using Boyer–Moore Algorithm##
+
+Description:
+Implemented an optimized algorithm to identify the majority element in an array using the Boyer–Moore Voting Algorithm. The solution runs in linear time with constant space and efficiently handles large input sizes.
+
+Tech Stack: Python, Data Structures
+Key Concepts: Arrays, Frequency Analysis, Algorithm Optimization
+
+
+“I solved the Majority Element problem using the Boyer–Moore Voting Algorithm.
+The idea is to cancel out different elements so the majority element remains.
+I keep a candidate and a count.
+If count becomes zero, I update the candidate.
+If the current element matches, I increment count, otherwise decrement it.
+Finally, I verify the candidate appears more than ⌊N/2⌋ times.
+This approach runs in O(N) time and O(1) space.”
